@@ -1,4 +1,4 @@
-stages:
+stages:   #this is like json however we ca track all the changes by running dvc repro
 
   stage_01:
     cmd: python stage_01.py

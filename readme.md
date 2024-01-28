@@ -6,4 +6,4 @@
 
 ## dvc commands:
 1. dvc init 
-2. 
+2. dvc repro (it is used to track the yaml file )
