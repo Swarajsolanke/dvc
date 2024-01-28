@@ -1,0 +1,11 @@
+stages:
+stage_01:
+ python stage_01.py
+deps:
+outs:
+
+stage_02:
+python stage_02,py 
+deps:
+outs:
+
