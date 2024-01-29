@@ -12,5 +12,12 @@ stages:   #this is like json however we ca track all the changes by running dvc 
     deps: 
     - artifact.txt 
     - stage_02.py
+  
+  stage_03:
+    cmd: python stage_03.py 
+    deps: 
+    - artifact.txt 
+    - stage_03.py
+
 
 
